@@ -179,7 +179,7 @@ Popular collection
 }
 .see_more{
     text-align: right;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .see_more a{
     text-decoration: none;
@@ -187,9 +187,37 @@ Popular collection
     color: #d31fd0;
     font-weight: 600;
     
+}/* ----------------
+promo-section
+------------------ */
+
+
+/* ----------------
+footer-menu
+------------------ */
+#footer{
+    height: 240px;
+    background: #0A0826;
+    display: grid;
+    align-content: center;
 }
-
-
+.footer-menu{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.social-menu-icon ul{
+    display: flex;
+    justify-content: center;
+}
+.social-menu-icon ul li{
+    padding: 15px 10px;
+    list-style: none;
+}
+.social-menu-icon ul a{
+    color: #fff;
+    text-decoration: none;
+}
 
 
 
