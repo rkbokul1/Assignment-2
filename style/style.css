@@ -21,7 +21,6 @@ body{
 }
 :root{
     --prime-color: #3A3A3A;
-
 }
 .primary-button{
     color: #fff;
@@ -125,9 +124,70 @@ logo collection
     display: grid;
     align-items: center;
 }
-
-
-
+/* ----------------
+Popular collection
+------------------ */
+#popular-collection{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+#popular-collection h1{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 28px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.card{
+    box-shadow: 1px 3px 8px black;
+    width: 330px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 5px;    
+}
+.card img{
+    width: 100%;
+}
+.card h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+.font h6{
+    font-size: 24px;
+    font-weight: 400;
+}
+.rating{
+    display: flex;
+}
+.star{
+    color: #eebd54;
+}
+.star-rating{
+    margin-left: 10px;
+}
+.card>small{
+    font-size: 14px;
+    font-weight: 500;
+    color: #787885;
+    line-height: 10px;
+}
+.popular-collection-parrent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 30px;
+}
+.see_more{
+    text-align: right;
+    padding-top: 80px;
+}
+.see_more a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #d31fd0;
+    font-weight: 600;
+    
+}
 
 
 
