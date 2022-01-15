@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1150px) {
+
+    /* popular-collection-parrent*/
+
+    .popular-collection-parrent{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+
+
+}
+@media screen and (max-width: 961px) {
+
+    /* feature-product */
+    .feature-product{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .feature-right{
+        width: 50%;
+        justify-items: center;
+        
+    }
+    .feature-right{
+        text-align: center;
+    }
+    .see_more{
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 835px) {
+    .logo h1{
+        font-size: 15px;
+    }    
+
+    .banner-content{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .banner-left{
+        order: 2;
+    }
+    /* cmpany logo */
+    .company-logo ul{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    .card{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 660px){
+    .menu ul li a{
+        padding: 0 10px;
+    }
+    #logo-collection{
+        width: 80%;
+    }
+    .company-logo ul li img{
+        width: 90%;
+    }
+    #logo-collection{
+        display: inline;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 495px){
+    .menu ul{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+        background-color: rgb(206, 211, 167);
+        transform: translateY(-290px);
+        transition: .3s ease-in-out;
+    }
+    .menu ul li {
+        border-bottom: 1px solid #fff;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul li .fas{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .toggle-bar{
+        display: block;
+        display: flex;
+        justify-content: end;
+    }
+    .fa-bars{
+        font-size: 20px;
+    }
+    #toggle-icon:checked ~ .menu ul{
+        transform: translateY(0);
+    }
+    .banner-right img{
+        max-width: 100%;
+    }
+    .feature-left img{
+        max-width: 100%;
+    }
+    .popular-collection-parrent{
+        grid-template-columns: 1fr;
+    }
+}

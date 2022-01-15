@@ -6,6 +6,9 @@ goole font
 /* ==============================
 Default Css
 ================================ */
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -40,7 +43,12 @@ body{
     background: rgb(236, 229, 229);
     box-shadow: 0 3px 5px #3a3436;
 }
-/* .primary-button */
+.toggle-bar{
+    display: none;
+}
+#toggle-icon{
+    display: none;
+}
 
 
 
@@ -176,7 +184,7 @@ Popular collection
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
 }
 .see_more{
     text-align: right;
@@ -212,9 +220,10 @@ promo-section
 
 /* ----------------
 footer-menu
------------------- */
+------------------ */ 
 #footer{
     height: 240px;
+    max-width: 100%;
     background: #0A0826;
     display: grid;
     align-content: center;
